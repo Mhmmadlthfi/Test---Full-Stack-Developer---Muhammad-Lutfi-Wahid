@@ -5,6 +5,10 @@
     'value' => ''
 ])
 
+@php
+    $hasError = $errors->has($name);
+@endphp
+
 <div class="mb-4">
     <x-atoms.label for="{{ $name }}">
         {{ $label }}
@@ -14,6 +18,7 @@
         type="{{ $type }}"
         name="{{ $name }}"
         value="{{ $value }}"
+        class="{{ $hasError ? 'input-error' : '' }}"
     />
 
     @error($name)

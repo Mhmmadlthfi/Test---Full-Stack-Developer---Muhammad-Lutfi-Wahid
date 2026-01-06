@@ -9,6 +9,6 @@
     name="{{ $name }}"
     value="{{ old($name, $value) }}"
     {{ $attributes->merge([
-        'class' => 'input input-bordered w-full'
+        'class' => 'input w-full'
     ]) }}
 />
