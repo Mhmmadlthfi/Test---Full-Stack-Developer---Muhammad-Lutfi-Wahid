@@ -134,7 +134,7 @@ Both libraries were chosen for simplicity and maintainability
 ### Installation Steps
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Mhmmadlthfi/Test---Full-Stack-Developer---Muhammad-Lutfi-Wahid.git
 cd project-folder
 
 composer install
