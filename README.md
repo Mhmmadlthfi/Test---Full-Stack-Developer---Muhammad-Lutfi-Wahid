@@ -152,7 +152,7 @@ php artisan serve
 
 ### 🌍 Live Demo
 
-> Live deployment link: [helloluthfiii.my.id](helloluthfiii.my.id)
+> Live deployment link: [helloluthfiii.my.id](https://helloluthfiii.my.id/products)
 
 ---
 
